@@ -1,0 +1,11 @@
+Student,Unnamed: 1,Year,Month,DayofMonth,DayOfWeek,DepTime,CRSDepTime,ArrTime,CRSArrTime,UniqueCarrier,FlightNum,TailNum,ActualElapsedTime,CRSElapsedTime,AirTime,ArrDelay,DepDelay,Origin,Dest,Distance,TaxiIn,TaxiOut,Cancelled,CancellationCode,Diverted,CarrierDelay,WeatherDelay,NASDelay,SecurityDelay,LateAircraftDelay,Delayed
+George,Sarah Annie,,,14,6,,815,,1000,US,187,0,,105,,,,ABE,CLT,481,,,1,,,,,,,,N
+George,Sarah Annie,,,16,6,,700,,755,AS,60,,,55,,,,JNU,KTN,0,,,0,,,,,,,,N
+George,Sarah Annie,,,21,6,,815,,1000,US,187,N702UW,,105,,,,ABE,CLT,481,,,0,,,,,,,,N
+George,Sarah Annie,,,21,6,,645,,937,UA,482,N7276U,,112,,,,ORD,PHL,678,,,0,,,,,,,,N
+George,Sarah Annie,,,23,6,,700,,755,AS,60,,,55,,,,JNU,KTN,0,,,0,,,,,,,,N
+George,Sarah Annie,,,28,6,,815,,1000,US,187,N717UW,,105,,,,ABE,CLT,481,,,0,,,,,,,,N
+George,Sarah Annie,,,28,6,,645,,937,UA,482,N7270U,,112,,,,ORD,PHL,678,,,0,,,,,,,,N
+George,Sarah Annie,,,30,6,,830,,1111,AS,60,,,101,,,,KTN,SEA,0,,,0,,,,,,,,N
+George,Sarah Annie,,,1,7,,1455,,1650,WN,227,N671SW,,55,,,,ABQ,AMA,277,,,0,,,,,,,,Y
+George,Sarah Annie,,,1,7,,1900,,2153,UA,1746,N9053U,,113,,,,ORD,PHL,678,,,0,,,,,,,,Y
