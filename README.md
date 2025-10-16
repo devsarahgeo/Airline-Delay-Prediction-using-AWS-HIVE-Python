@@ -1,7 +1,7 @@
 # ✈️ Airline Delay Analysis and Prediction
 
 ## 📌 Project Overview
-This project was part of my Master’s coursework, where each team member analyzed flight delay data for a specific year individually.  
+This was a team project, where each team member analyzed flight delay data for a specific year individually.  
 The final step involved combining results across multiple years and individually building prediction models to forecast airline delays.  
 In the end, we chose the best prediction model based on performance.
 
