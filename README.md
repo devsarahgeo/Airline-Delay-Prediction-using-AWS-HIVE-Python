@@ -1,52 +1,60 @@
 # ✈️ Airline Delay Analysis and Prediction
 
-## 📌 Project Overview
-This was a team project, where each team member analyzed flight delay data for a specific year individually.  
-The final step involved combining results across multiple years and individually building prediction models to forecast airline delays.  
-In the end, we chose the best prediction model based on performance.
+## 🧭 Executive Summary
+This group project focused on analyzing and predicting U.S. airline delays using large-scale flight data. Each team member worked on a specific year, and all results were later combined to identify delay trends across multiple years. The goal was to understand delay patterns, determine the most efficient airports and carriers, and build predictive models to forecast potential flight delays.
 
-### Main Objectives
-- Identify the **airports** and **carriers** with the lowest delay times.  
-- Compare **arrival vs. departure** delays for airports.  
-- Build and evaluate **prediction models** to classify whether a flight would be delayed or not.  
+### 💼 Business Problem
+Flight delays cause significant operational inefficiencies and customer dissatisfaction.
+The project aimed to:
+
+- Identify airports and carriers with the lowest delay times.
+
+- Compare arrival vs. departure delay trends.
+
+- Predict whether a flight would be delayed or not using historical data.
+
+By addressing these objectives, airlines and airports can make data-driven decisions to minimize future delays and improve customer experience.
 
 ---
 
-## 🔧 My Contribution (2005 Dataset)
+## ⚙️ Methodology (2005 Dataset)
 
 ### 1. Data Preparation (AWS EMR + Hive)
 - Uploaded multiple input CSVs to **Amazon S3** for centralized storage.  
-- Set up **Apache Hive** on **AWS EMR** to query and transform the raw flight data.  
-- Created Hive **external tables** for structured access to the S3 data.  
-- Processed, cleaned, and aggregated the flight records to generate a final **analysis-ready CSV** for the year 2005.  
+- Configured **Apache Hive on AWS EMR** to query and transform the raw flight data.  
+- Created **Hive external tables** for structured access to the S3 data.  
+- Processed, cleaned, and aggregated the flight records to generate a final **analysis-ready dataset** for the year 2005.  
 
 ### 2. Exploratory Analysis (Hive SQL)
-- Wrote Hive SQL queries to answer key project questions:
+- Used Hive SQL to answer key analytical questions:
   - Top 3 airports with the lowest delay time.  
   - Top 3 carriers with the lowest delay time.  
-  - Comparison of **arrival vs. departure** delays.  
+  - Comparison of **rrival and departure delay patterns**.  
 
 ### 3. Modeling (Prediction Task)
-- Downloaded my processed dataset and combined it with my teammates’ datasets (covering multiple years).  
-- Built **classification models** to predict whether a flight would be delayed or not.  
-- Tested and compared different prediction algorithms to evaluate performance.  
+- Combined the 2005 dataset with teammates’ datasets from other years.
+- Built **classification models** in Python (Scikit-learn) to predict whether a flight would be delayed.
+- Tested multiple algorithms and selected the **best-performing model** based on accuracy and F1 score.
 
 ---
 
-## 📊 Tech Stack & Skills Showcased
-- **AWS S3** – Data storage and management.  
-- **Hive on AWS EMR** – Data querying, transformation, and SQL-based analysis.  
-- **Python (Pandas, Scikit-learn, etc.)** – Machine learning model development.  
-- **Team Collaboration** – Communicated and worked with team members efficiently to combine datasets and results.
+## 🧠 Skills & Tech Stack
+- **AWS S3** – Data storage and versioning
+- **Hive on AWS EMR** – Distributed querying and data transformation
+- **Python (Pandas, Scikit-learn)** – Model building and evaluation
+- **Team Collaboration** – Data integration and performance comparison across multiple contributors
+- **Data Analysis & Visualization**: Used Excel for insight generation from the large-scale dataset
 
 ---
 
-## 🚀 Outcome
-- Delivered insights into delay patterns across **airports** and **carriers**.  
-- Compared **arrival vs. departure** delay patterns for airports.  
-- Developed predictive models capable of identifying potential delays.  
-- Gained hands-on experience in **big data processing**, **SQL on distributed systems**, and **applied machine learning**.  
+## 📈 Results
+- Identified airports and carriers with consistently **low delay averages**.
+- Compared **arrival vs. departure** delay patterns across airports.
+- Developed machine learning models capable of predicting flight delays with solid performance metrics.
+- Gained hands-on experience in **big data processing**, **SQL on distributed systems**, and **applied machine learning**.
 
-## Please refer ppt to see the steps taken for this project. Please refer the .ipynb file to see the code
+## 📂 Resources
+- Presentation (PPT): Detailed project steps and workflow visualization.
+- Jupyter Notebook (.ipynb): Data processing, model training, and evaluation code.
 
 
